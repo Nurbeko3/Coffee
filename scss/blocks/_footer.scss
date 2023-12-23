@@ -30,4 +30,9 @@
     line-height: 15px; /* 125% */
     letter-spacing: 0.923px;
     text-transform: uppercase;
+    transition: all 0.4s ease;
+
+    &:hover{
+        color: #333D4B;
+    }
 }
