@@ -1,0 +1,218 @@
+
+.site-header{
+    padding-top: 44px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar__list{
+    display: flex;
+    align-items: center;
+}
+.navbar__item + .navbar__item {
+    margin-left: 33px;
+}
+.navbar__link{
+    color: #83888F;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    transition: color 0.5s ease;
+    
+    &:hover{
+        color: #333D4B;
+    }
+}
+.about-hero-main{
+    width: 1280px;
+    height: 450px;
+    margin-top: 43px;
+    background-image: url(../images/about/Bitmap.jpg);
+    background-repeat: no-repeat;
+}
+.about-hero-content{
+    width: 445px;
+    padding-top: 137px;
+    margin-left: 85px;
+}
+.about-hero-title{
+    color: #FEFCF7;
+    font-family: Fraunces , serif;
+    padding-bottom: 24px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; /* 120% */
+}
+.about-hero-text{
+    color: #FEFCF7;
+    font-family: Barlow , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.commit-main{
+    margin-top: 168px;
+    display: flex;
+}
+.commit-content{
+    width: 540px;
+    margin-top: 89px;
+    margin-left: 125px;
+}
+.commit-title{
+    color: #333D4B;
+    font-family: Fraunces , serif;
+    padding-bottom: 32px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; /* 120% */
+}
+.commit-text{
+    color: #333D4B;
+    font-family: Barlow , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    opacity: 0.8;
+}
+
+
+
+
+.quality-main{
+    width: 1280px;
+    height: 565px;
+    margin-top: 168px;
+    padding-top: 88px;
+    position: relative;
+}
+.quality-color{
+    width: 1280px;
+    height: 474px;
+    display: flex;
+    border-radius: 8px;
+    background-color: #2C343E;
+}
+.quality-content{
+    width: 540px;
+    margin-top: 100px;
+    margin-left: 85px;
+}
+.quality-title{
+    color: #FEFCF7;
+    font-family: Fraunces , serif;
+    padding-bottom: 32px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; /* 120% */
+}
+.quality-text{
+    color: #FEFCF7;
+    font-family: Barlow , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    opacity: 0.8;
+}
+.quality-img{
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 746px;
+}
+.country-main{
+    margin-top: 170px;
+}
+.country-title{
+    color: #83888F;
+    font-family: Fraunces , serif;
+    margin-bottom: 72px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 133.333% */
+}
+.country-cards{
+    display: flex;
+}
+.united-card{
+    width: 275px;
+    
+}
+.united-title{
+    color: #333D4B;
+    font-family: Fraunces , serif;
+    margin-top: 45px;
+    padding-bottom: 24px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; /* 112.5% */
+}
+.united-item{
+    color: #333D4B;
+    font-family: Barlow , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.canada-card{
+    width: 275px;
+    margin-left: 108px;
+}
+.australia-card{
+    width: 275px;
+    margin-left: 95px;
+}
+.footer{
+    width: 1280px;
+    margin-top: 200px;
+    margin-bottom: 88px;
+    background-color: #2C343E;
+}
+.footer-main{
+    display: flex;
+    padding-top: 47px;
+    padding-bottom: 49px;
+}
+.footer-logo{
+    padding-left: 85px;
+}
+.footer-list{
+    display: flex;
+    align-items: center;
+    margin-left: 102px;
+    padding-right: 369px;
+}
+.footer-item + .footer-item{
+    margin-left: 33px;
+}
+.footer-item-link{
+    color: #83888F;
+    font-family: Barlow , sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+
+    &:hover{
+        color: white;
+    }
+}

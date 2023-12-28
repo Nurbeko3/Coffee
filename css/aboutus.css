@@ -1,0 +1,37 @@
+.site-header {
+  padding-top: 44px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__item + .navbar__item {
+  margin-left: 33px;
+}
+
+.navbar__link {
+  color: #83888F;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px; /* 125% */
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+  transition: color 0.5s ease;
+}
+.navbar__link:hover {
+  color: #333D4B;
+}
+
+.about-hero-main {
+  margin-top: 43px;
+  width: 250px;
+}/*# sourceMappingURL=aboutus.css.map */
